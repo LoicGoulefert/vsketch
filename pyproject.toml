@@ -47,7 +47,7 @@ requests = {version = "^2.25.1", optional = true}
 jupyterlab = {version = "^3.0.1", optional = true}
 jupyter_nbextensions_configurator = {version = "^0.4.1", optional = true}
 jupyterlab-code-formatter = {version = "^1.4.1", optional = true}
-ipympl = {version = "^0.6.2", optional = true}
+ipympl = {version = "^0.7.0", optional = true}
 black = {version = "^20.8b1", optional = true}
 isort = {version = "^5.6.4", optional = true}
 
@@ -61,7 +61,7 @@ recommonmark = { version = ">=0.6,<0.8", optional = true }
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.1"
 pytest-benchmark = "^3.2.3"
-mypy = "^0.800"
+mypy = ">=0.800"
 jupyter = "^1.0.0"
 nbconvert = "5.6.1"
 nbformat = "^5.0.8"
